@@ -1,0 +1,4 @@
+<launch>
+    <node pkg='floor_cleaning' type='move_furniture.py' name='move_furniture' output='screen'></node>
+    <node pkg='floor_cleaning' type='cleaner.py' name='vaccum_cleaner' output='screen'></node>
+</launch>
